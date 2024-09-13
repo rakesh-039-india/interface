@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: pink;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../image/clock.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-image: url('../../image/sunrise.jpg');
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: rgba(172, 100, 117, 0.536);
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #fef4f4;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 1px 1px 2px yellow;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#007bff
+}
+
+#taskList {
+    list-style-type: none;
+}
+
+#taskList li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#time {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#date{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
